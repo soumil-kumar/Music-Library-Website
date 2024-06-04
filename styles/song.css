@@ -1,0 +1,101 @@
+.song-grid{
+  font-family: Roboto, Arial;
+  margin-top: 60px;
+  margin-left: 80px;
+  margin-right: 17px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr  ;
+  column-gap: 0;
+  row-gap: 0px;
+}
+
+
+.song-preview-featured{
+  background-color: rgb(232,228,228);
+}
+.song-preview-featured:hover{
+  opacity: 0.8;
+}
+
+.song-preview-recommended{
+  background-color: rgb(232,244,228);
+}
+.song-preview-recommended:hover{
+  opacity: 0.8;
+}
+
+.thumbnail-row{
+  margin: 20px;
+  position: relative; 
+}
+
+.thumbnail-row img{
+  width: 245px;
+}
+
+.song-number{
+  font-family: Signika,Arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 6px;
+  border-radius: 200px;
+  background-color: rgb(29, 185, 84);
+  border-width: 1px;
+  color : black;
+  border-style: solid;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+.song-info-grid{
+  margin: 10px 10px 10px 10px;
+  display: grid;
+  
+}
+
+.song-info{
+  display: grid;
+  grid-template-rows: 20px 20px;
+}
+
+.song-name{
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.singer{
+  font-size: 12px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.song-bottom{
+  display: grid;
+  grid-template-rows: 30px 1fr;
+}
+
+.song-type{
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.follow{
+  justify-content: right;
+  background-color: rgb(29, 185, 84);
+  color: black;
+  border: none;
+  border-radius: 30px;
+  padding: 4px 15px 4px 15px;
+  font-family: Signika,Arial;
+  font-size: 14px;
+  cursor: pointer;
+}
+.follow:hover{
+  background-color:rgb(87, 221, 134) ;
+  color: rgb(31, 31, 31);
+}

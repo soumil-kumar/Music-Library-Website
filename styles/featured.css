@@ -1,0 +1,32 @@
+.featured-page{
+  position: flex;
+  flex-direction: column;
+  border-top: 2px;
+  border-top-style: solid;
+  border-color:rgb(204, 202, 202) ;
+}
+
+.featured-title{
+  font-family: Signika,Arial;
+  font-size:50px;
+  margin-top: 60px;
+  margin-left: 80px;
+}
+
+.featured-title-subtitle{
+  margin-left: 80px;
+  font-family: Signika, Arial;
+  color: rgb(92, 91, 91);
+  font-size: 21px;
+  margin-top: 10px;
+  margin-left: 80px;
+}
+
+.featured-border{
+  margin-top: 100px;
+  margin-left: 0;
+  margin-right: 0;
+  border-bottom: 2px;
+  border-top-style: solid;
+  border-color:rgb(204, 202, 202) ;
+}

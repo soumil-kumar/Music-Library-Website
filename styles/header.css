@@ -1,0 +1,72 @@
+.header{
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+
+  background-color: rgb(233, 230, 230);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(204, 202, 202);
+}
+
+.left-section{
+  display: flex;
+  align-items: center;
+}
+
+.groovehub-logo{
+  height: 120px;
+  margin-top: 24px;
+  margin-left: 30px;
+  margin-right: 0;
+  border-radius: 45px;
+}
+
+.groovehub-title{
+  height: 36px;
+  margin-top: 16px;
+  margin-left: 140px;
+}
+
+.right-section{
+  width: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 70px;
+  flex-shrink: 0;
+}
+
+.featured-container,
+.recommended-container,
+.reviews-container{
+  font-family: Roboto, Arial;
+  font-size: 18px;
+  color: rgb(30, 30, 30);
+}
+
+.featured-container:hover,
+.recommended-container:hover,
+.reviews-container:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+a:link {
+  color:rgb(30, 30, 30);
+}
+
+a:visited {
+  color: rgb(30, 30, 30);
+}

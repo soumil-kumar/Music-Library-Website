@@ -1,0 +1,43 @@
+.review-page{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.review-title{
+  font-family: Signika,Arial;
+  font-size:50px;
+  margin-top: 60px;
+  margin-left: 80px;
+}
+
+.review-section{
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+
+.reviews{
+  display: flex;
+
+}
+
+.write-review{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between  ;
+  margin-top: 200px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  font-family: Signika,Arial;
+
+  border-radius: 5px;
+}
+
+.write-review-title{
+  font-family: Signika,Arial;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
