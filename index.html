@@ -24,7 +24,8 @@
     <link rel="stylesheet" href="styles/featured.css">
     <link rel="stylesheet" href="styles/song.css">
     <link rel="stylesheet" href="styles/recommended.css">
-    <link rel="stylesheet" href="styles/review.css">
+    <link rel="stylesheet" href="styles/user-review.css">
+    <link rel="stylesheet" href="styles/write-review.css">
     <link rel="stylesheet" href="styles/footer.css"> 
     <link rel="stylesheet" href="styles/back_to_top.css">
 
@@ -350,35 +351,99 @@
       <div class="featured-border"></div>
     </div>
 
-    <div class="review-page" id="reviews">
-      <div class="review-title">
+    <div id="reviews"></div>
+    <div class="review-page" >
+      <div class="review-page-title">
         User Reviews
       </div>
       <div class="review-section">
-        <div class="reviews">
+        <div class="user-reviews">
+          <div class="reviews-row-1">
+            <div class="review-tile">
+              <div class="top-section">
+                <div class="image">
+                  <img src="profile-pic/dp-1.jpg">
+                </div>
+                <div class="user-name">
+                  Cool.Kid 
+                </div>
+              </div>
+              <div class="bottom-section">
+                Found my new favourite playlist here
+              </div>
+            </div>
 
+            <div class="review-tile">
+              <div class="top-section">
+                <div class="image">
+                  <img src="profile-pic/dp-2.jpeg">
+                </div>
+                <div class="user-name">
+                  Groove Hub user
+                </div>
+              </div>
+              <div class="bottom-section">
+                The site has great recommendations &#33;
+              </div>
+            </div>
+
+          </div>
+          <div class="reviews-row-2">
+            <div class="review-tile">
+              <div class="top-section">
+                <div class="image">
+                  <img src="profile-pic/dp-3.jpg">
+                </div>
+                <div class="user-name">
+                  SadMan
+                </div>
+              </div>
+              <div class="bottom-section">
+                Really brightened by day :&#41;
+              </div>
+            </div>
+
+            <div class="review-tile">
+              <div class="top-section">
+                <div class="image">
+                  <img src="profile-pic/dp-4.jpg">
+                </div>
+                <div class="user-name">
+                  Lazy_cat 123
+                </div>
+              </div>
+              <div class="bottom-section">
+                Cat hear, Cat like, Cat Groove ^^
+              </div>
+            </div>
+            
+          </div>
         </div>
+
         <div class="write-review">
-          <div class="write-review-title">Submit a Review</div>
-          <form>
-            <input class="review-text" type="text" name="name" 
-            placeholder="Your Name">
-            <input class="review-email" type="email" name="email" 
-            placeholder="Your Email">
-            <textarea class="review-textarea" name="review" 
-            placeholder="Your Review"></textarea>
-            <label class="review-rating" for="rating">Rating:</label>
-            <select id="rating" name="rating">
-            <option value="5">★★★★★</option>
-            <option value="4">★★★★☆</option>
-            <option value="3">★★★☆☆</option>
-            <option value="2">★★☆☆☆</option>
-            <option value="1">★☆☆☆☆</option>
-            </select>
-            <button class="review-submit-button" type="submit">
-              Submit
-            </button>
-          </form>
+          <div class="write-review-title">Write us a Review</div>
+          <div class="write-review-section">
+            <form>
+              <label class="name" for="name"> Name : </label>
+              <div>
+                <input type="text" id="name" class="name-box"
+                size="30">
+              </div>
+              <label class="email" for="email">Email : </label>
+              <div>
+                <input type="email" id="email" class="email-box"
+                size="50">
+              </div>
+              <label class="review" for="review">Review : </label>
+              <div>
+                <textarea class="review-box" id="review"
+                cols="50" rows="4"></textarea>
+              </div>
+              <button class="review-submit-button" type="submit">
+                Submit
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </div>

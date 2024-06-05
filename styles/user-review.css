@@ -1,0 +1,41 @@
+.review-tile{
+  width: 150px;
+  height: 200px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  font-family: Roboto,Arial;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(240, 240, 240);
+  padding: 5px 15px 15px 15px;
+}
+
+.top-section{
+  display: grid;
+  grid-template-columns: 85px 1fr;
+}
+
+.image{
+  padding-left: 5px;
+}
+.image img{
+  width: 70px;
+  border-radius: 35px;
+}
+
+.user-name{
+  padding-top: 15px;
+  padding-left: 0px;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-section{
+  background-color: rgb(232, 227, 227);
+  align-self: start;
+  place-items: center;
+  min-height: 98px;
+  padding: 8px;
+  font-size: 14px;
+}
